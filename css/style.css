@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@700&family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Oswald&family=Shizuru&display=swap');
+
+*{
+   margin: 0 auto;      
+   padding: 0px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1:hover {
+   background-color: yellow;
+   border: 6px solid lightblue;
+}
+
+
+
+body {
+   background-image: url(../img/fondoo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #e4e3cb ;
+   font-weight: 600;
+}
+
+header {
+   text-align: center;
+}
+
+#formulario-pokemon {
+   width: 500px;
+   margin: 40px auto;
+}
+
+input {
+   width: 50%;
+   margin-top:10px;
+   outline:none;
+}
+
+input:focus {
+   border: 3px solid blue;
+}
+
+#tipos-pokemons {
+   text-align: center;
+   color: black;
+   margin-top: 0px;
+   background-color: rgb(189, 219, 20);
+   background-size: contain;
+   width: 50%;
+   font-size: 30px;
+   font-weight: 700;
+   margin: 0 auto;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   box-sizing: border-box;
+   padding-top: 30px;
+}
+
+#tipos-pokemons:hover {
+   background-color: red;
+   border: 5px dashed white;
+}
+
+#video{
+text-align: center;
+margin-top: 20px;
+}
+
+select {
+   width: 150px;   
+   color: #191970;
+   font-size: 18px;
+   font-weight: 700;
+   outline: none;
+}
+
+select:focus {
+   border:  3px solid green;
+}
+
+.tipo {
+   color: rgb(8, 6, 6);
+   font-weight: 700;
+}
+
+#ingresar-datos-pokemon{
+   display:block;
+   font-weight: 700;
+   margin: 50px;
+}
