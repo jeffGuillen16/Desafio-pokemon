@@ -1,0 +1,8 @@
+Hacer una pokedex responsive
+y un form que les permita agregar pokemones nuevos
+el fondo del cuadro de cada pokemos tiene que ser de un color 
+referido al tipo, y que cambie de color cuando pones el mouse encima
+
+
+Marca: (desplegable con etiquetas "select" y "option") 
+
